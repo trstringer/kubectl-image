@@ -1,6 +1,6 @@
 FROM debian:buster
 
-LABEL org.opencontainers.image.source https://github.com/trstringer/REPO
+LABEL org.opencontainers.image.source https://github.com/trstringer/kubectl-image
 
 ARG VERSION
 RUN apt update && \
