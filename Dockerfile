@@ -1,5 +1,7 @@
 FROM debian:buster
 
+LABEL org.opencontainers.image.source https://github.com/trstringer/REPO
+
 ARG VERSION
 RUN apt update && \
     apt install -y curl && \
